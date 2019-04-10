@@ -4,7 +4,8 @@ client.music = require('discord.js-musicbot-addon');
 client.music.start(client, {
   youtubeKey: 'AIzaSyAYP5t2p-qC_vO7lfr06bZr5zzRwDo4a_k' ,
   botPrefix: 'music ',
-  help: { name: 'help' },
+  musicPresence: true, 
+  channelWhitelist: ['565273792704806932'],
   bigPicture: true
 });
 // THIS  MUST  BE  THIS  WAY
