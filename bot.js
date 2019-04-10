@@ -9,6 +9,11 @@ client.music.start(client, {
   channelWhitelist: ['565273792704806932'],
   bigPicture: true
 });
+client.on('ready', () => {
+	client.user.setPresence({ game: { name: ' no song.' , streaming: true}})
+  	.then()
+  	.catch(err => { console.log(err);});
+});
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
 
