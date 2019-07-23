@@ -5,7 +5,7 @@ client.music.start(client, {
   youtubeKey: 'AIzaSyAYP5t2p-qC_vO7lfr06bZr5zzRwDo4a_k' ,
   botPrefix: 'music ',
   musicPresence: true,
-  channelWhitelist: ['565273792704806932'],
+  channelWhitelist: ['565273792704806932','564856951381557269'],
   bigPicture: true
 });
 client.on('ready', () => {
